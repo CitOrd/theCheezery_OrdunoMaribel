@@ -10,5 +10,13 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
+        var intent = Intent(this, Productos::class.java)
+
+        val btn_ColdDrinks: Button = findViewById(R.id.cold_drinks) as Button
+        val btn_hotDrinks: Button = findViewById(R.id.hot_drinks) as Button
+        val btn_sweets: Button = findViewById(R.id.sweets) as Button
+        val btn_salties: Button = findViewById(R.id.salties) as Button
+
+
     }
 }
