@@ -65,6 +65,7 @@
         android:layout_gravity="center"
         android:text="@string/sign_in"
         android:textColor="@color/dusty_white"
+        android:id="@+id/btn_sign"
         />
 
 

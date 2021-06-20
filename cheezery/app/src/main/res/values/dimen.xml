@@ -2,4 +2,7 @@
 <resources>
     <dimen name="padding_force">35dp</dimen>
     <dimen name="input_margin">20dp</dimen>
+    <dimen name="menu_buttons_padding">20dp</dimen>
+    <dimen name="menu_buttons_margin">5dp</dimen>
+    <dimen name="menu_buttons_textside">15sp</dimen>
 </resources>

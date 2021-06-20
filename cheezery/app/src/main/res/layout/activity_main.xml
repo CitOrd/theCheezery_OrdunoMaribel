@@ -38,7 +38,7 @@
        />
 
    <Button
-       android:id="@+id/buttonp"
+       android:id="@+id/button_started"
        android:layout_width="219dp"
        android:layout_height="33dp"
        android:layout_gravity="center"
