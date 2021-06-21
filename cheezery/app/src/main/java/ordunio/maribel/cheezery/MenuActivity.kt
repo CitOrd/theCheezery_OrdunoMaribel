@@ -18,5 +18,23 @@ class MenuActivity : AppCompatActivity() {
         val btn_salties: Button = findViewById(R.id.salties) as Button
 
 
+
+        btn_ColdDrinks.setOnClickListener{
+            intent.putExtra("type","coldDrinks")
+            startActivity(intent)
+        }
+
+        btn_hotDrinks.setOnClickListener{
+            intent.putExtra("type","hotDrinks")
+            startActivity(intent)
+        }
+        btn_sweets.setOnClickListener{
+            intent.putExtra("type","sweets")
+        }
+
+        btn_salties.setOnClickListener{
+            intent.putExtra("type","salties")
+            startActivity(intent)
+        }
     }
 }
